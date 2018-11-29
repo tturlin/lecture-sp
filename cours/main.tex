@@ -58,9 +58,9 @@
 \thispagestyle{empty}
 \begin{tikzpicture}[remember picture,overlay]
 \node[inner sep=0pt] (background) at (current page.center) {\includegraphics[width=\paperwidth]{background}};
-\draw (current page.center) node [fill=steelblue!30!white,fill opacity=0.6,text opacity=1,inner sep=1cm]{\Huge\centering\bfseries\sffamily\parbox[c][][t]{\paperwidth}{\centering The Search for a Title\\[15pt] % Book title
-{\Large A Profound Subtitle}\\[20pt] % Subtitle
-{\huge Dr. John Smith}}}; % Author name
+\draw (current page.center) node [fill=steelblue!30!white,fill opacity=0.6,text opacity=1,inner sep=1cm]{\Huge\centering\bfseries\sffamily\parbox[c][][t]{\paperwidth}{\centering Naines blanches, étoiles à neutrons et étoiles étranges\\[15pt] % Book title
+{\Large Les états exotiques de la matière dans les corps hyperdenses}\\[20pt] % Subtitle
+{\huge Nicolas BELLEMONT et Théo TURLIN}}}; % Author name
 \end{tikzpicture}
 \vfill
 \endgroup
@@ -87,7 +87,7 @@
 %	TABLE OF CONTENTS
 %----------------------------------------------------------------------------------------
 
-\usechapterimagefalse % If you don't want to include a chapter image, use this to toggle images off - it can be enabled later with \usechapterimagetrue
+\usechapterimagefalse% If you don't want to include a chapter image, use this to toggle images off - it can be enabled later with \usechapterimagetrue
 
 % \chapterimage{chapter_head.pdf} % Table of contents heading image
 
@@ -95,15 +95,15 @@
 
 \tableofcontents % Print the table of contents itself
 
-\cleardoublepage % Forces the first chapter to start on an odd page so it's on the right
+\cleardoublepage% Forces the first chapter to start on an odd page so it's on the right
 
 \pagestyle{fancy} % Print headers again
 
-%----------------------------------------------------------------------------------------
-%	PART
-%----------------------------------------------------------------------------------------
+% %----------------------------------------------------------------------------------------
+% %	PART
+% %----------------------------------------------------------------------------------------
 
-\part{Part One}
+% \part{Part One}
 
 %----------------------------------------------------------------------------------------
 %	CHAPTER 1
@@ -111,8 +111,17 @@
 
 % \chapterimage{chapter_head.pdf} % Chapter heading image
 
-\chapter{Text Chapter}
+\chapter{Quelques notions d'astronomie ...}
 
+
+\section{Les étoiles à neutrons}
+
+\subsection{Naissance d'une étoile à neutrons}
+Comme nous l'avons expliqué en (ref), une étoile à neutron naît lorsque qu'une étoile d'une masse comprise entre \(10M_\odot\) et \(29M_\odot\) finit sa vie dans une supernovae. Ce type d'étoiles à une masse allant de \(1.4M_\odot\) à \(2.16M_\odot\) pour un rayon d'une dizaine de kilomètres, elle possède donc une densité de l'ordre de \(3\cdot 10^{26}\ kg.m^{-3}\).
+\begin{remark}
+    Une boite d'allumette en ``étoile à neutron'' pèse 3 milliards de tonnes
+\end{remark}
+Une fois formée, elle ne produit plus de chaleur. Sa temperature de surface est de l'ordre de \(600\ 000K\)
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
